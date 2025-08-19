@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #050a65;
+  color: #f3f0f0;
+  line-height: 1.6;
+  overflow-x:hidden;
+  scrollbar-color: #00ffe1 #050a65;
+}
+
+/* Cursor */
+
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: radial-gradient(circle, #c20af0, #2d08e5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(14, 15, 16);
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero-content {
+  animation: slideUp 1.5s ease;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  font-family: 'Orbitron', sans-serif;
+}
+.hero-content h1 span {
+  color: #00ffe1;
+}
+.hero-content p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #d91a3a;
+  margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+  padding: 80px 20px;
+  text-align: center;
+  ;
+}
+section h2 {
+  font-size: 2.2rem;
+  color: #3fd5ef;
+  margin-bottom: 20px;
+}
+
+/* Education List */
+.education ul {
+  list-style: none;
+  padding: 0;
+}
+.education li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+
+}
+.education{
+  padding: 1px 20px;
+}
+
+/* Skills */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.skill-tags span {
+  padding: 10px 20px;
+  background: #1c0a47;
+  border: 1px solid #02fadd;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: 0.3s;
+  
+}
+.skill-tags span:hover {
+  background: #00ffe1;
+  color: #000;
+}
+
+
+
+/* Project Card */
+.project {
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.project h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #00ffe1;
+  text-align: center; /* ✅ Title will always be centered */
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;   /* space between boxes */
+  flex-wrap: wrap; /* ✅ makes it responsive on small screens */
+}
+
+.project-card {
+  background: #1f1f1f;
+  padding: 20px 40px;
+  width: 40%;   /* each card takes ~half space */
+  border-radius: 15px;
+  box-shadow: 0 0 25px #00ffe160;
+  text-align: center; /* keep card content aligned nicely */
+}
+
+.project-card a:hover{
+  background-color: #eeeeef;
+  border-color: #00ffe1;
+  border-width: 3px;
+  border-style: solid;
+  
+}
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #00ffe1;
+  margin-bottom: 10px;
+}
+
+
+/* Footer */
+footer {
+  background: #140505;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #f6f4f4;
+}
+
+footer a:hover{
+  background-color: #eeeeef;
+  color: #000;
+  border-color: #00ffe1;
+  border-width: 4px;
+  border-style: solid;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.3rem;
+  }
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.linkedin{
+  height: 100vh;
+  background: radial-gradient(circle, #c20af0, #2d08e5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(14, 15, 16);
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+
+}
+
+a {
+  padding: 10px 20px;
+  background: #00ffe1;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin: 10px;
+  display: inline-block;
+}
+a:hover {
+  background: rgb(2, 250, 250);
+  color: #111;
+}
+
+.resume-link {
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.resumebutton {
+  background-color: #1351e209;
+  border-radius: 190px;
+  border : 2px solid #07f2f2f2;
+  color: #f4f4f5f0;
+  padding: 10px 20px; 
+  margin-top: 1px;
+}
