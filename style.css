@@ -12,10 +12,6 @@ body {
   overflow-x:hidden;
   scrollbar-color: #00ffe1 #050a65;
 }
-
-/* Cursor */
-
-
 /* Hero Section */
 .hero {
   height: 100vh;
@@ -177,8 +173,8 @@ footer a:hover{
     font-size: 2.3rem;
   }
   .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
   }
 }
 
@@ -223,3 +219,4 @@ a:hover {
   padding: 10px 20px; 
   margin-top: 1px;
 }
+
