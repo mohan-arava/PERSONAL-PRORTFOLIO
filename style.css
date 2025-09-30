@@ -12,7 +12,6 @@ body {
   overflow-x:hidden;
   scrollbar-color: #00ffe1 #050a65;
 }
-/* Hero Section */
 .hero {
   height: 100vh;
   background: radial-gradient(circle, #c20af0, #2d08e5);
@@ -39,15 +38,15 @@ body {
   margin-top: 10px;
 }
 .profile-pic {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #d91a3a;
   margin-bottom: 10px;
 }
 
-/* Sections */
+
 section {
   padding: 80px 20px;
   text-align: center;
@@ -59,7 +58,6 @@ section h2 {
   margin-bottom: 20px;
 }
 
-/* Education List */
 .education ul {
   list-style: none;
   padding: 0;
@@ -73,7 +71,6 @@ section h2 {
   padding: 1px 20px;
 }
 
-/* Skills */
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
@@ -96,7 +93,6 @@ section h2 {
 
 
 
-/* Project Card */
 .project {
   padding: 20px;
   margin-top: 30px;
@@ -107,23 +103,23 @@ section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
   color: #00ffe1;
-  text-align: center; /* ✅ Title will always be centered */
+  text-align: center;
 }
 
 .project-list {
   display: flex;
   justify-content: center;
-  gap: 20px;   /* space between boxes */
-  flex-wrap: wrap; /* ✅ makes it responsive on small screens */
+  gap: 20px;  
+  flex-wrap: wrap; 
 }
 
 .project-card {
   background: #1f1f1f;
   padding: 20px 40px;
-  width: 40%;   /* each card takes ~half space */
+  width: 40%;   
   border-radius: 15px;
   box-shadow: 0 0 25px #00ffe160;
-  text-align: center; /* keep card content aligned nicely */
+  text-align: center;
 }
 
 .project-card a:hover{
@@ -157,7 +153,6 @@ footer a:hover{
   border-style: solid;
 }
 
-/* Animations */
 @keyframes fadeIn {
   from { opacity: 0; transform: scale(0.95); }
   to { opacity: 1; transform: scale(1); }
@@ -167,7 +162,6 @@ footer a:hover{
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2.3rem;
@@ -219,4 +213,5 @@ a:hover {
   padding: 10px 20px; 
   margin-top: 1px;
 }
+
 
